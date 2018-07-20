@@ -7,7 +7,7 @@ def initialize(discount=0)
 end
 
 def add_item(cart, total)
-  @cart << 
+  @cart << self
 end
 
 def apply_discount
